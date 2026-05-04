@@ -1,0 +1,26 @@
+[
+  {
+    "conditions": [
+      "w_fatigue = severe (\u2265 0.75)"
+    ],
+    "consequent": "high_risk",
+    "certainty": 1.0,
+    "support": 2
+  },
+  {
+    "conditions": [
+      "stutter_count = 2 stutters"
+    ],
+    "consequent": "high_risk",
+    "certainty": 1.0,
+    "support": 1
+  },
+  {
+    "conditions": [
+      "tortuosity = severe (\u2265 2.0)"
+    ],
+    "consequent": "boundary_risk",
+    "certainty": 0.5,
+    "support": 1
+  }
+]
